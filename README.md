@@ -6,15 +6,17 @@ The Bulk File Rename Application is a web-based tool designed to facilitate the 
 
 ## Technologies Used
 
-- **Python**: The language used for developing the backend of the application.
-- **Flask**: A lightweight web framework used to create the web server and handle file operations.
+- **Python**: The language used for developing the application's backend.
+- **Flask**: A lightweight web framework to create the web server and handle file operations.
 - **HTML/CSS**: Technologies used to build and style the user interface.
 
 ## Features
 
-- Upload multiple files at once.
-- Specify a new base name for all uploaded files.
-- Automatically rename files with the new base name and a unique suffix.
+- Upload multiple files.
+- Specify a new base name for files.
+- Change the case of filenames (uppercase or lowercase).
+- Append the parent folder's name to the filename.
+- Remove specific characters or words from filenames.
+- Remove digits and symbols from filenames.
+- Ensures unique filenames by appending numbers if needed.
 - Validation and error handling for file types and sizes.
-
-
